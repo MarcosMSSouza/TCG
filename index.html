@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="src/css/style.css" />
+    <script type="module" src="src/js/controller.js"></script>
+
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"> -->
+  </head>
+  <body>
+    <div class="container">
+      <section class="log">LOG</section>
+
+      <section class="gameArea dragarea">
+        <!-- <div class="cards" draggable="true">card1</div>
+        <div class="cards" draggable="true">card2</div>
+        <div class="cards" id="card333" draggable="true">card3</div>
+        <div class="cards" draggable="true">card4</div> -->
+        <div class="cards" draggable="true">card5</div>
+        <div class="cards" draggable="true">card6</div>
+        <div class="cards" draggable="true">card7</div>
+
+        <!-- <div class="cards" draggable="true">card7</div> -->
+        <!-- <div class="cards" draggable="true"></div> -->
+      </section>
+
+      <section class="player1Hand dragarea">
+        <!-- <div class="cards" draggable="true"></div>
+          <div class="cards" draggable="true"></div> -->
+        <!-- <div class="cards" draggable="true"></div>
+          <div class="cards" draggable="true"></div>
+          <div class="cards" draggable="true"></div> -->
+        <!-- <div class="cards" draggable="true"></div> -->
+      </section>
+
+      <section class="player1_magi_area hor_bar">
+        <div class="discard">
+          <div class="card">Discard pile</div>
+        </div>
+
+        <div class="relics_left">
+          <div class="relic placeholder_div">Rel1</div>
+          <div class="relic placeholder_div">Rel2</div>
+          <div class="relic placeholder_div">Rel3</div>
+        </div>
+
+        <div class="magi-div">
+          <!-- <p></p> -->
+          <div class="magi">MAGI</div>
+        </div>
+        <div class="relics_right">
+          <div class="relic placeholder_div">Rel4</div>
+          <div class="relic placeholder_div">Rel5</div>
+          <div class="relic placeholder_div">Rel6</div>
+        </div>
+        <div class="drawdeck">
+          <div class="card">CLICK HERE TO DRAW!</div>
+        </div>
+      </section>
+
+      <section class="console hor_bar">
+        <button class="console_button" type="button" id="btn-play">PLAY</button>
+        <button class="console_button" type="button" id="btn-collection">
+          COLECTION
+        </button>
+        <button class="console_button" type="button" id="btn-options">
+          OPTIONS
+        </button>
+        <button class="console_button" type="button">DECK 1</button>
+        <button class="console_button" type="button">DECK 2</button>
+      </section>
+    </div>
+
+    <!-- //////////// MODALS //////////////////// -->
+
+    <!-- Modal 1 -->
+    <div class="modal hidden" id="modal-play">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Modal 1</h5>
+          </div>
+          <div class="modal-body">Content for Modal 1 goes here.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="modal hidden" id="modal-collection">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Modal 2</h5>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">Content for Modal 2 goes here.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <!-- <div class="modal hidden" id="modal-options"> -->
+    <div class="modal modal-collection hidden">
+      <div class="modal-collection-header">
+        <h5 class="modal-title">Modal 3 REGIONS</h5>
+      </div>
+
+      <div class="modal-collection-decks">
+        <h5 class="modal-title">DECKS</h5>
+        <button class="console_button" type="button">New Deck</button>
+        <button class="console_button" type="button">Delete Deck</button>
+        <div class="deck deck-btn" id="deck1" type="button">
+          <h1 class="deck-title">DECK 1</h1>
+        </div>
+        <div class="deck deck-btn" id="deck2">
+          <h1 class="deck-title">DECK 2</h1>
+        </div>
+        <div class="deck">Rel4</div>
+      </div>
+
+      <div class="modal-collection-content dragarea"></div>
+
+      <div class="modal modal-collection-builder">
+        <h5 class="modal-title">BUILDER</h5>
+        <div class="builder-area dragarea"></div>
+      </div>
+    </div>
+
+    <footer></footer>
+  </body>
+</html>

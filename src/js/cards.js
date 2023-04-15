@@ -1,0 +1,141 @@
+// import foop from '../../staic/*.jpg';
+import * as images from '../../src/img/cards/*.jpg';
+// console.log(images.furok);
+
+export const creatures = [
+  {
+    name: 'furok',
+    url: images.furok,
+    region: 'Naroom',
+    type: 'creature',
+    energy: 4,
+    rarity: 'common',
+    effect:
+      'Retrieve: When a defending Creature removes energy from Furok, palce half of that enregy, rounded up, back on your Magi.',
+    artist: 'Holmberg/Vega',
+  },
+  {
+    name: 'lightning_hyren',
+    url: images.lightning_hyren,
+    region: 'Arderial',
+    type: 'creature',
+    energy: 5,
+    rarity: 'common',
+  },
+  {
+    name: 'baloo_root',
+    url: images.baloo_root,
+    region: 'universal',
+    type: 'relic',
+    energy: 0,
+    rarity: 'common',
+  },
+  {
+    name: 'fire_chogo',
+    url: images.fire_chogo,
+    region: 'cald',
+    type: 'creature',
+    energy: 2,
+    rarity: 'common',
+  },
+  {
+    name: 'izmer',
+    url: images.izmer,
+    region: "d'Resh",
+    type: 'creature',
+    energy: 2,
+    rarity: 'common',
+  },
+  {
+    name: "n'kala",
+    region: 'bograth/paradwyn',
+    url: images.nkala,
+    type: 'creature',
+    energy: 3,
+    rarity: 'common',
+  },
+
+  {
+    name: 'ninibom',
+    url: images.ninibom,
+    region: 'core',
+    type: 'magi',
+    energy: 8,
+    rarity: 'rare',
+  },
+  {
+    name: 'wellisk',
+    url: images.wellisk,
+    region: 'orothe',
+    type: 'creature',
+    energy: 3,
+    rarity: 'common',
+  },
+  {
+    name: 'gloom',
+    url: images.gloom,
+    region: 'core',
+    type: 'spell',
+    energy: 4,
+    rarity: 'rare',
+  },
+  {
+    name: 'crag_quor',
+    url: images.crag_quor,
+    region: "kybar's teeth",
+    type: 'creature',
+    energy: 7,
+    rarity: 'common',
+  },
+  {
+    name: 'pack_korrit',
+    url: images.pack_korrit,
+    region: 'underneath',
+    type: 'creature',
+    energy: 1,
+    rarity: 'common',
+  },
+];
+
+const magi = [
+  {
+    name: 'velouria',
+    url: images.velouria,
+    region: 'Nar',
+    type: 'magi',
+    energy: 14,
+    rarity: 'uncommon',
+  },
+  {
+    name: 'sorreah',
+    url: 'src/img/cards/sorreah.jpg',
+    region: 'Arderial',
+    type: 'magi',
+    energy: 13,
+    rarity: 'rare',
+  },
+  {
+    name: 'ninx',
+    url: images.ninx,
+    region: 'Weave',
+    type: 'magi',
+    energy: 12,
+    rarity: 'uncommon',
+  },
+  {
+    name: 'harresh',
+    url: images.harresh,
+    region: "d'Resh",
+    type: 'magi',
+    energy: 15,
+    rarity: 'uncommon',
+  },
+  {
+    name: 'korremar',
+    url: images.korremar,
+    region: 'Core',
+    type: 'magi',
+    energy: 14,
+    rarity: 'rare',
+  },
+];

@@ -1,0 +1,21 @@
+{
+  "name": "tcg",
+  "version": "1.0.0",
+  "description": "TCG CARD GAME",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "MSouza",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/resolver-glob": "^2.8.3",
+    "@parcel/transformer-image": "^2.0.0-rc.0",
+    "parcel": "^2.8.3",
+    "parcel-plugin-static-files-copy": "^1.2.4"
+  },
+  "dependencies": {
+    "sortablejs": "^1.15.0"
+  }
+}
