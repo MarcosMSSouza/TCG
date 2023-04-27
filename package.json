@@ -12,10 +12,19 @@
   "devDependencies": {
     "@parcel/resolver-glob": "^2.8.3",
     "@parcel/transformer-image": "^2.0.0-rc.0",
+    "assert": "^2.0.0",
+    "console-browserify": "^1.2.0",
+    "file-loader": "^6.2.0",
     "parcel": "^2.8.3",
-    "parcel-plugin-static-files-copy": "^1.2.4"
+    "parcel-plugin-static-files-copy": "^2.6.0",
+    "path-browserify": "^1.0.1",
+    "util": "^0.12.5"
   },
   "dependencies": {
-    "sortablejs": "^1.15.0"
+    "fs": "^0.0.1-security",
+    "lodash": "^4.17.21",
+    "node": "^19.8.1",
+    "sortablejs": "^1.15.0",
+    "xlsx": "^0.18.5"
   }
 }
